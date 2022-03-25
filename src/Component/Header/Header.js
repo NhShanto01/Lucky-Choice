@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../logo/favicon.ico';
 import './Header.css';
 
 
