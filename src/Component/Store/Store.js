@@ -4,6 +4,7 @@ import './Store.css';
 
 const Store = () => {
     const [products, setProducts] = useState([]);
+    const [cart, setCart] = useState([]);
 
 
     useEffect(() => {
@@ -13,20 +14,26 @@ const Store = () => {
     }, [])
     // console.log(products);
 
+    const handleSelectedProducts = (product) => {
+        console.log(product);
+        const newCart = [...cart, product];
+        setCart(newCart);
+    }
     return (
         <div className='store-container'>
             <div className="products-container">
-                <p>hello products</p>
                 {
                     products.map(product => <Product
                         key={product.id}
+                        product={product}
+                        handleSelectedProducts={handleSelectedProducts}
                     ></Product>)
                 }
             </div>
 
             <div className="cart-container">
-                <p>hello cart</p>
-                {/* <Cart cart={cart}></Cart> */}
+                <h3>Selected Products </h3><br />
+                <p>{cart}</p>
             </div>
         </div>
     );
