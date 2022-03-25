@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Canon 90D ",
+        "img": "https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/04/Canon-EOS-R3-1.jpg?resize=1500%2C1125&ssl=1",
+        "price": "800"
+    },
+    {
+        "id": 2,
+        "name": "Canon R3",
+        "img": "https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/04/Canon-EOS-R3-1.jpg?resize=1500%2C1125&ssl=1",
+        "price": "800"
+    },
+    {
+        "id": 3,
+        "name": "Canon M6-Mark(II)",
+        "img": "https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/04/Canon-EOS-R3-1.jpg?resize=1500%2C1125&ssl=1",
+        "price": "800"
+    },
+    {
+        "id": 4,
+        "name": "Canon PowerShot G7 X Mark (III)",
+        "img": "https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/04/Canon-EOS-R3-1.jpg?resize=1500%2C1125&ssl=1",
+        "price": "800"
+    },
+    {
+        "id": 5,
+        "name": "Nikon d5 ",
+        "img": "https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/04/Canon-EOS-R3-1.jpg?resize=1500%2C1125&ssl=1",
+        "price": "800"
+    },
+    {
+        "id": 6,
+        "name": "Nikon D850",
+        "img": "https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/04/Canon-EOS-R3-1.jpg?resize=1500%2C1125&ssl=1",
+        "price": "800"
+    },
+    {
+        "id": 7,
+        "name": "Nikon d7500 ",
+        "img": "https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/04/Canon-EOS-R3-1.jpg?resize=1500%2C1125&ssl=1",
+        "price": "800"
+    },
+    {
+        "id": 8,
+        "name": "Nikon df ",
+        "img": "https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/04/Canon-EOS-R3-1.jpg?resize=1500%2C1125&ssl=1",
+        "price": "800"
+    },
+    {
+        "id": 9,
+        "name": "Sony A7 (III)",
+        "img": "https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/04/Canon-EOS-R3-1.jpg?resize=1500%2C1125&ssl=1",
+        "price": "800"
+    },
+    {
+        "id": 10,
+        "name": "Sony a9 mark (II)",
+        "img": "https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/04/Canon-EOS-R3-1.jpg?resize=1500%2C1125&ssl=1",
+        "price": "800"
+    }
+]
