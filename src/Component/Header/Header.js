@@ -5,7 +5,7 @@ import './Header.css';
 const Header = () => {
     return (
         <nav className='header'>
-            <h1>Lucky Store</h1>
+            <h1>Fortunate Store</h1>
             <div>
                 <a href="/products">Products</a>
                 <a href="/order">Order</a>

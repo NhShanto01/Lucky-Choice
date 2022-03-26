@@ -3,7 +3,7 @@ import './Theory.css';
 
 const Theory = () => {
     return (
-        <div>
+        <div className='theory-container'>
             <div className='theory'>
                 <h1>Q1.How useState() works?</h1>
                 <p>

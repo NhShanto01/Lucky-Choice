@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
+      <h1 className='normal-header'>Choose Your Dream Product</h1>
       <Store></Store>
       <Theory></Theory>
     </div>

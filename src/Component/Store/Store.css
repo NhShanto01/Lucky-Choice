@@ -31,19 +31,33 @@
     font-size: 17px;
 
 }
-@media only screen and (min-device-width: 350px) and (max-device-width: 900px) {
+@media only screen and (min-width: 350px) and (max-width: 900px) {
     .header{
-        width: 65%;
+        width: 60%;
+    }
+    .header h1{
+        font-size: 25px;
+        position: relative;
+        left: -100px;
+    }
+    .header a{
+        position: relative;
+        left: -100px;
+    }
+    .normal-header{
+        margin-left: 140px;
+    }
+    .store-container{
+        display: grid;
+        grid-template-columns: 2fr;
+        margin-left: 65px;
     }
     .products-container{
         grid-template-columns: repeat(1,1fr);
     }
+    .theory-container{
+        width: 450px;
+        margin-left: 45px;
+        margin-right: 0px;
+    }
 }
-/* @media only screen and (max-device-width: 1200px) {
-    .header{
-        width: 60%;
-    }
-    .products-container{
-        grid-template-columns: repeat(2,1fr);
-    }
-} */

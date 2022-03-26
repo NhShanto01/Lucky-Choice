@@ -2,5 +2,5 @@
 
 
 
-## Site Name & Link : [site name](live link)
+## Site Name & Link : [Fortunate Store](live link)
 
