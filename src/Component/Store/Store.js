@@ -13,7 +13,6 @@ const Store = () => {
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
-    // console.log(products);
 
     const handleSelectedProducts = (product) => {
         console.log(product);
@@ -21,6 +20,14 @@ const Store = () => {
             const newCart = [...cart, product];
             setCart(newCart);
         }
+    }
+
+    const randomItem = () => {
+        const myCart = [];
+        const randomItem = Math.floor(Math.random() * cart.length);
+        myCart.push(cart[randomItem]);
+        setCart(myCart);
+
     }
 
     const removeItem = () => {
@@ -42,13 +49,16 @@ const Store = () => {
             <div className="cart-container">
                 <h2>Selected Products</h2>
                 {
-                    cart.map(product => <Cart
+                    cart.map((product, index) => <Cart
                         // key={product.id}
+                        key={index}
                         product={product}
                         removeItem={removeItem}
                     // cart={cart}
                     ></Cart>)
                 }
+                <button className='random-btn' onClick={() => randomItem()}>Choose 1 For Me</button>
+
                 <button className='remove-btn' onClick={() => removeItem()}>Refresh</button>
             </div>
         </div>
