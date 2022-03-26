@@ -14,6 +14,15 @@
     background-color: rgba(95, 89, 79, 0.3);
     font-size: 20px;
 }
+
+.remove-btn{
+    background-color: orange;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 17px;
+
+}
 @media only screen and (min-device-width: 350px) and (max-device-width: 900px) {
     .header{
         width: 60%;
@@ -22,3 +31,11 @@
         grid-template-columns: repeat(1,1fr);
     }
 }
+/* @media only screen and (max-device-width: 1200px) {
+    .header{
+        width: 60%;
+    }
+    .products-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+} */

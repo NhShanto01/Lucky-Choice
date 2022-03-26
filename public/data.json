@@ -3,60 +3,60 @@
         "id": 1,
         "name": "Canon 90D ",
         "img": "https://www.kindpng.com/picc/m/6-67025_transparent-camera-canon-eos-90d-hd-png-download.png",
-        "price": "800"
+        "price": "1,190.00"
     },
     {
         "id": 2,
         "name": "Canon R3",
         "img": "https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/04/Canon-EOS-R3-1.jpg?resize=1500%2C1125&ssl=1",
-        "price": "800"
+        "price": "5,999.00"
     },
     {
         "id": 3,
         "name": "Canon M6-Mark(II)",
         "img": "https://eadn-wc05-1926589.nxedge.io/cdn/pub/media/catalog/product/cache/2264c9e38777ed202d5c3170a063a3cf/c/a/can2778_1.jpg",
-        "price": "800"
+        "price": "1,099.00"
     },
     {
         "id": 4,
         "name": "Canon PowerShot G7 X Mark (III)",
         "img": "https://www.pngitem.com/pimgs/m/24-244857_canon-g7x-mark-iii-price-hd-png-download.png",
-        "price": "800"
+        "price": "749.00"
     },
     {
         "id": 5,
         "name": "Nikon D5 ",
         "img": "https://www.seekpng.com/png/detail/204-2040163_nikon-d4s-dslr-camera-image-nikon-d5.png",
-        "price": "800"
+        "price": "3,499.00"
     },
     {
         "id": 6,
         "name": "Nikon D850",
         "img": "https://upload.wikimedia.org/wikipedia/commons/3/31/Nikon_D850_sensor.jpg",
-        "price": "800"
+        "price": "2,796.95"
     },
     {
         "id": 7,
         "name": "Nikon D7500 ",
         "img": "https://5.imimg.com/data5/MW/MF/MF/GLADMIN-31196623/selection-243-500x500-500x500-500x500.png",
-        "price": "800"
+        "price": "1,201.14"
     },
     {
         "id": 8,
         "name": "Nikon Df ",
         "img": "https://www.cameraegg.org/wp-content/uploads/2014/11/Nikon-Df-Gold-Edition.jpg",
-        "price": "800"
+        "price": "1,299.99"
     },
     {
         "id": 9,
         "name": "Sony A7 (III)",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVXcjrF_gWgAPWqmGU9uhd9mua6zP6MoNOsJJzdR-bHn6Uxdqfbe6Dai2X9FbHj9GqlXo&usqp=CAU",
-        "price": "800"
+        "price": "1,998.00"
     },
     {
         "id": 10,
         "name": "Sony A9 mark (II)",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzJFyQ7tx2qnqfYM9RwheoiuHFgL9D8Bz4Td9k52iV3fkWmOSTuLbXKOEpLmdmBi3w0Ag&usqp=CAU",
-        "price": "800"
+        "price": "4,498.00"
     }
 ]

@@ -17,9 +17,16 @@ const Store = () => {
 
     const handleSelectedProducts = (product) => {
         console.log(product);
-        const newCart = [...cart, product];
-        setCart(newCart);
+        if ((cart.length < 4)) {
+            const newCart = [...cart, product];
+            setCart(newCart);
+        }
     }
+
+    const removeItem = () => {
+        setCart([])
+    }
+
     return (
         <div className='store-container'>
             <div className="products-container">
@@ -33,7 +40,16 @@ const Store = () => {
             </div>
 
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <h2>Selected Products</h2>
+                {
+                    cart.map(product => <Cart
+                        // key={product.id}
+                        product={product}
+                        removeItem={removeItem}
+                    // cart={cart}
+                    ></Cart>)
+                }
+                <button className='remove-btn' onClick={() => removeItem()}>Refresh</button>
             </div>
         </div>
     );
