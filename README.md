@@ -2,5 +2,5 @@
 
 
 
-## Site Name & Link : [Fortunate Store](live link)
+## Site Name & Link : [Fortunate Store](https://fortunate-camera-store.netlify.app/)
 
