@@ -15,7 +15,7 @@ const Store = () => {
     }, [])
 
     const handleSelectedProducts = (product) => {
-        console.log(product);
+
         if ((cart.length < 4)) {
             const newCart = [...cart, product];
             setCart(newCart);
@@ -57,9 +57,11 @@ const Store = () => {
                     // cart={cart}
                     ></Cart>)
                 }
+
                 <button className='random-btn' onClick={() => randomItem()}>Choose 1 For Me</button>
 
                 <button className='remove-btn' onClick={() => removeItem()}>Refresh</button>
+
             </div>
         </div>
     );
